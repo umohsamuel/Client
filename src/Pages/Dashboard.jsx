@@ -7,11 +7,13 @@ const Dashboard = () => {
   return (
     <div className="">
       <Navbar />
-      <div className="flex w-[100%] h-[100%] ">
-        <Sidebar />
+      <div className="flex w-[100%] h-[100%] justify-between ">
+        <div className="w-[21vw]">
+          <Sidebar />
+        </div>
 
-        <div className="bg-[#F5F0EF] flex w-[78.75vw] h-[184vh]">
-          <section className=" mx-10 my-10 bg-white w-full max-h-[100%] rounded-2xl border-2 border-[#CFCEED] pl-14 flex flex-col justify-center">
+        <div className="bg-[#F5F0EF] flex w-[79vw] h-[185vh] items-center justify-center">
+          <section className=" mx-10  bg-white w-full h-[95%] rounded-2xl border-2 border-[#CFCEED] pl-14 flex flex-col justify-center">
             <div className="flex items-center gap-10 ">
               <Circle>1</Circle>
               <Circle>2</Circle>
@@ -103,7 +105,7 @@ const Dashboard = () => {
                 How do you pay, what is the pay, and when do you pay?
               </li>
               <hr className=" ml-[-2rem] my-5 border-b-2 border-[#CFCEED] w-[100%]" />
-              <div className="grid grid-cols-2 gap-5 max-w-[80%] ">
+              <div className="grid grid-cols-2 gap-5 max-w-[100%] ">
                 <select
                   name="how"
                   id="how"

@@ -7,8 +7,8 @@ const Dashboard = () => {
   return (
     <div className="">
       <Navbar />
-      <div className="flex w-[100%] h-[100%] justify-between ">
-        <div className="w-[21vw]">
+      <div className="relative flex w-[100%] h-[100%] justify-between ">
+        <div className="w-[21vw] overflow-auto">
           <Sidebar />
         </div>
 

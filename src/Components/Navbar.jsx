@@ -7,7 +7,7 @@ import SearchIcon from "@mui/icons-material/Search";
 class Navbar extends Component {
   render() {
     return (
-      <div className="  bg-[#F5F0EF] overflow-x-hidden">
+      <div className=" fixed z-50  bg-[#F5F0EF] overflow-x-hidden">
         <nav className=" px-8 flex items-center justify-between py-6">
           <img src={Image.moillogo} alt="moillogo" className=" ml-3" />
 
@@ -20,7 +20,7 @@ class Navbar extends Component {
               />
               <input
                 type="text"
-                className=" w-80 h-10 rounded-full bg-white flex border-[#D2D4F8] border-2 ml-12"
+                className=" w-80 h-10 rounded-full bg-white flex border-[#D2D4F8] border-2 ml-12 indent-12"
               />
             </div>
 

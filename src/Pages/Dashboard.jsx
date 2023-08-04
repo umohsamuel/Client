@@ -12,7 +12,7 @@ const Dashboard = () => {
           <Sidebar />
         </div>
 
-        <div className="bg-[#F5F0EF] flex w-[79vw] h-[185vh] items-center justify-center">
+        <div className="bg-[#F5F0EF] flex w-[79vw] h-[185vh] items-center justify-center mt-[6.175em]">
           <section className=" mx-10  bg-white w-full h-[95%] rounded-2xl border-2 border-[#CFCEED] pl-14 flex flex-col justify-center">
             <div className="flex items-center gap-10 ">
               <Circle>1</Circle>

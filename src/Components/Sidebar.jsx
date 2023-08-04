@@ -13,11 +13,11 @@ import Image from "./Image";
 export class Sidebar extends Component {
   render() {
     return (
-      <aside className="bg-[#F5F0EF] flex flex-col justify-center items-center overflow-x-hidden ]">
+      <aside className="bg-[#F5F0EF] flex flex-col justify-center items-center min-h-screen overflow-y-auto fixed top-[6.175em] z-10">
         {/* Vertical line  */}
-        <div className=" h-[200vh] border-r-2 border-[#CFCEED] absolute left-[21vw] top-0"></div>
+        <div className=" min-h-[152.5vh] border-r-2 border-[#CFCEED] absolute left-[21vw] top-0"></div>
 
-        <ul className=" h-[170vh] overflow-y-hidden w-[21vw] pt-5  flex flex-col  items-center gap-4">
+        <ul className=" min-h-screen w-[21vw] pt-5  flex flex-col  items-center gap-4">
           <li className=" text-white flex items-center text-base font-semibold bg-gradient-to-r from-[#CC5B5D] to-[#5843BD] rounded-full w-[14em] h-14 gap-x-2 pl-5 mb-[-8px]">
             <DashboardIcon style={{ color: "#ffffff" }} />
             <button>Dashboard</button>

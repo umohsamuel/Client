@@ -7,10 +7,12 @@ const Dashboard = () => {
   return (
     <div className="">
       <Navbar />
-      <div className="relative flex w-[100%] h-[100%] justify-between ">
-        <div className="w-[21vw] overflow-auto">
+      <div className="relative flex w-[100%]  justify-between ">
+        <div className="w-[21vw] h-[200vh] overflow-auto">
           <Sidebar />
         </div>
+
+        <div className="h-[200vh] border-r-2 border-[#CFCEED] absolute left-[21vw] top-[6.175em]"></div>
 
         <div className="bg-[#F5F0EF] flex w-[79vw] h-[185vh] items-center justify-center mt-[6.175em]">
           <section className=" mx-10  bg-white w-full h-[95%] rounded-2xl border-2 border-[#CFCEED] pl-14 flex flex-col justify-center">

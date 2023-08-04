@@ -13,11 +13,10 @@ import Image from "./Image";
 export class Sidebar extends Component {
   render() {
     return (
-      <aside className=" h-auto bg-[#F5F0EF] flex flex-col justify-center items-center overflow-x-hidden overflow-auto  absolute top-[6.175em] left-0 z-10 mt-2">
+      <aside className=" h-screen bg-[#F5F0EF] flex flex-col py-10 items-center overflow-x-hidden overflow-auto  fixed  top-[6.175em] left-0 z-10 mt-[-1rem]">
         {/* Vertical line  */}
-        <div className="h-[200vh] border-r-2 border-[#CFCEED] absolute left-[21vw] top-0"></div>
 
-        <ul className="  w-[21vw] pt-5  flex flex-col  items-center gap-4 overflow-auto">
+        <ul className="  w-[21vw] flex flex-col  items-center gap-4">
           <li className=" text-white flex items-center text-base font-semibold bg-gradient-to-r from-[#CC5B5D] to-[#5843BD] rounded-full w-[14em] h-14 gap-x-2 pl-5 mb-[-8px]">
             <DashboardIcon style={{ color: "#ffffff" }} />
             <button>Dashboard</button>
@@ -59,7 +58,7 @@ export class Sidebar extends Component {
             <button>Subscribe Premium</button>
           </li>
         </ul>
-        <label className="py-8 underline text-[#898989] flex items-center justify-center  text-base font-semibold">
+        <label className="py-8 pb-20 underline text-[#898989] flex items-center justify-center  text-base font-semibold">
           Need help?
         </label>
       </aside>

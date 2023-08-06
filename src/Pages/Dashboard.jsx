@@ -19,7 +19,7 @@ const Dashboard = () => {
           className=" flex w-auto m-auto h-full
           justify-center items-center py-[1em] pt-[7.175em]"
         >
-          <section className="  p-10 bg-white w-full h-[95%] tablet:rounded-2xl tablet:border-2 border-[#CFCEED] pl-14 flex flex-col justify-center mobile:ml-[1em] tablet:ml-0">
+          <section className="  p-10 bg-white w-full h-[95%] tablet:rounded-2xl tablet:border-2 border-[#CFCEED] pl-14 flex flex-col justify-center mobile:ml-[2em]  tablet:ml-0">
             <div className="flex items-center tablet:gap-10 mobile:gap-5 ">
               <Circle>1</Circle>
               <Circle>2</Circle>
